@@ -1,0 +1,56 @@
+/***tag selctor**/
+body {
+  background-color: #EAF6F6;
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 50, 0, 0.5)),
+                  url("images/jisha2.png"); */
+  align-self: center;
+}
+
+hr {
+  /* background-color: white; */
+  /* border-style:dotted none none; */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  /* height: 2px; */
+  width: 10%;
+  /* width:  */
+}
+h1{
+  color: #66BFBF;
+}
+h3{
+  color: #66BFBF;
+}
+
+img {
+  height: 150px;
+  text-align: center;
+  /* height: 60;
+  width: 100% */
+}
+
+img:hover{
+  background-color: inherit;
+}
+a:hover{
+  color:Red;
+}
+/***************specific*******************/
+#MyName{
+  color: blue;
+}
+
+
+/****************common******************/
+.Java{
+  color:Red;
+}
+.Publications{
+  background-color: inherit;
+}
+.bow:hover{
+
+  content: url("https://emojipedia-us.s3.amazonaws.com/source/skype/289/woman-bowing_1f647-200d-2640-fe0f.png");
+}
